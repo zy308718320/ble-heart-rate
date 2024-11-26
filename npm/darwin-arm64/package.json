@@ -11,6 +11,9 @@
   "files": [
     "ble-heart-rate.darwin-arm64.node"
   ],
+  "repository": {
+    "url": "https://github.com/zy308718320/ble-heart-rate"
+  },
   "license": "MIT",
   "engines": {
     "node": ">= 10"
