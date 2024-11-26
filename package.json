@@ -33,5 +33,11 @@
     "universal": "napi universal",
     "version": "napi version"
   },
-  "packageManager": "pnpm@9.14.2"
+  "packageManager": "pnpm@9.14.2",
+  "optionalDependencies": {
+    "@uxlab/ble-heart-rate-darwin-arm64": "0.1.1",
+    "@uxlab/ble-heart-rate-win32-arm64-msvc": "0.1.1",
+    "@uxlab/ble-heart-rate-darwin-x64": "0.1.1",
+    "@uxlab/ble-heart-rate-win32-x64-msvc": "0.1.1"
+  }
 }
