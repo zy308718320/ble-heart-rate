@@ -15,6 +15,9 @@
       ]
     }
   },
+  "repository": {
+    "url": "https://github.com/zy308718320/ble-heart-rate.git"
+  },
   "license": "MIT",
   "devDependencies": {
     "@napi-rs/cli": "^2.18.4"
