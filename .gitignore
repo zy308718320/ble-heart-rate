@@ -6,8 +6,8 @@
 logs
 *.log
 npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+pnpm-debug.log*
+pnpm-error.log*
 lerna-debug.log*
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
@@ -69,8 +69,8 @@ typings/
 # Output of 'npm pack'
 *.tgz
 
-# Yarn Integrity file
-.yarn-integrity
+# pnpm Integrity file
+.pnpm-integrity
 
 # dotenv environment variables file
 .env
@@ -187,11 +187,11 @@ $RECYCLE.BIN/
 Cargo.lock
 
 .pnp.*
-.yarn/*
-!.yarn/patches
-!.yarn/plugins
-!.yarn/releases
-!.yarn/sdks
-!.yarn/versions
+.pnpm/*
+!.pnpm/patches
+!.pnpm/plugins
+!.pnpm/releases
+!.pnpm/sdks
+!.pnpm/versions
 
 *.node
